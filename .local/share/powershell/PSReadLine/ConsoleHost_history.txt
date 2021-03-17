@@ -1,0 +1,148 @@
+az group create --name myResourceGroup --location "West Europe"
+az group create --name myResourceGroup1 --location "West Europe"
+az sql server firewall-rule create --resource-group myResourceGroup1 --server myserverMonica2020 --name AllowAzureIps --start-ip-address 0.0.0.0 --end-ip-address 0.0.0.0
+az sql server firewall-rule create --resource-group myResourceGroup1 --server myservermonica2020 --name AllowAzureIps --start-ip-address 0.0.0.0 --end-ip-address 0.0.0.0
+az sql db create --resource-group myResourceGroup1 --server myservermonica2020 --name coreDB --service-objective S0
+az sql db show-connection-string --client ado.net --server myservermonica2020 --name coreDB
+az appservice plan create --name myAppServicePlan --resource-group myResourceGroup1 --sku FREE
+az webapp create --resource-group myResourceGroup1 --plan myAppServicePlan --name MyDefaultNetAppMonica --deployment-local-git
+git remote add azure https://github.com/monicaelenastefan/default-netcore-sql.git
+git init
+fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+git remote add azure https://github.com/monicaelenastefan/default-netcore-sql.git
+git push azure main
+git init
+git remote add azure https://github.com/monicaelenastefan/default-netcore-sql.git
+git remote add azure https://github.com/monicaelenastefan/default-netcore-sql.git
+az appservice plan create --name myAppServicePlan --resource-group myResourceGroup1 --sku FREE
+az webapp create --resource-group myResourceGroup1 --plan myAppServicePlan --name MyDefaultNetAppMonica --deployment-local-git
+git remote add azure https://github.com/monicaelenastefan/default-netcore-sql.git
+az webapp create --resource-group myResourceGroup --plan myAppServicePlan --name MyDefaultNetAppMonica --deployment-local-git
+git remote add azure https://github.com/monicaelenastefan/default-netcore-sql.git
+git push azure main
+git remote add azure https://github.com/monicaelenastefan/MyDefaultNetAppMonica.git
+git push 
+git push azure main
+git remote add azure https://github.com/monicaelenastefan/MyDefaultNetAppMonica.git
+git remote -v show
+git remote rm origin
+git remote rm azure
+git remote -v show
+git remote add azure https://github.com/monicaelenastefan/MyDefaultNetAppMonica
+git push azure master
+git push azure main
+git commit -m "initial commit"
+git config --global user.email "monicaelenastefan@gmail.com"
+git config --global user.name "monicaelenastefan"
+git commit -m "initial commit"
+git push origin master
+git push azure master
+mkdir repo && cd repo
+git remote add azure https://github.com/monicaelenastefan/MyDefaultNetAppMonica.git
+git add .
+git commit -m "intial"
+git push -u azure master
+git push azure 
+git push --set-upstream azure master
+git commit -m "initial commit"
+cd ..
+git commit -m "initial commit"
+git push azure HEAD:master
+git show-ref
+git push origin HEAD:MASTER
+touch README
+git add README
+git commit -m "file"
+git push azure master
+git fetch master
+git fetch azure
+git push azure master
+git fetch azure master
+git push azure master
+git pull azure master
+git --allow-unrelated-histories  pull azure master 
+git pull azure master --allow-unrelated-histories
+git push azurre main
+git commit -m "file"
+git push azure master --force
+git push azure main
+git push azure HEAD:master
+git push azure main
+git push azure HEAD:main
+git pull azure HEAD:main
+git push azure HEAD:MAIN
+git push azure HEAD:main
+git fetch azure HEAD:main
+git push azure HEAD:main
+git fetch azure main
+git pull azure main
+git push azure main
+git pull azure main
+git push azure main
+git push azure HEAD:main
+git remote add azure https://monicaelenastefan@mydefaultnetappmonica.scm.azurewebsites.net/MyDefaultNetAppMonica.git
+git remove azure
+git remote -v
+git remote rm azure
+git remote -v
+git remote add azure https://monicaelenastefan@mydefaultnetappmonica.scm.azurewebsites.net/MyDefaultNetAppMonica.git
+git remote -v
+git push azure main
+git add readme
+git push azure HEAD:main
+git fetch azure HEAD:main
+git fetch azure main
+git pull azure main
+git stash
+git status
+git commit
+git merge 
+cd Views/Home/Index.cshtml
+cd Views
+cd Home
+git merge Index.cshtml
+git status
+git commit -a
+git status
+git push azure main
+clear
+cd ..
+git checkout azure main
+git status
+git checkout azure master
+git show-ref
+git push azure master
+git show-ref
+git remote rm azure
+git remote add https://monicaelenastefan@mydefaultnetappmonica.scm.azurewebsites.net/MyDefaultNetAppMonica.git
+git remote add azure https://monicaelenastefan@mydefaultnetappmonica.scm.azurewebsites.net/MyDefaultNetAppMonica.git
+git push azure main
+git push azure master
+git checkout azure master
+git checkout azure-master
+git push azure master
+git fetch azure master
+git pull azure master
+git push azure master
+git fetch azure master
+git pull azure  master
+git pull azure  main
+git push azure main
+git status
+git fetch azure master
+git pull azure HEAD:master
+git push azure HEAD:master
+git remote -v
+git remote rm azure
+git remote -v
+git status
+git fetch
+git remote add azure https://github.com/monicaelenastefan/MyDefaultNetAppMonica.git
+git fetch azure master
+git pull azure master
+git stash
+git merge
+git rm Views/Home/Index.cshtml
+git status
+git add .

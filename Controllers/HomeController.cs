@@ -12,6 +12,7 @@ namespace DotNetCoreSqlDb.Controllers
     {
         public IActionResult Index()
         {
+            int a = 3;
             return View();
         }
 
